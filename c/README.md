@@ -4,11 +4,15 @@ here in little snippets.
 
 To try them out:
 
+```
 apt-get install libglib2.0-dev
+```
 
 Compiling example with base64.c:
 
+```
 gcc base64.c -o base64 `pkg-config --cflags --libs glib-2.0`
+```
 
 
 GLibs testcases are a good place to find examples
