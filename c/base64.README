@@ -1,3 +1,0 @@
-apt-get install libglib2.0-dev
-
-gcc base64.c -o base64 `pkg-config --cflags --libs glib-2.0`
