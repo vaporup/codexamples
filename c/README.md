@@ -15,6 +15,6 @@ gcc base64.c -o base64 `pkg-config --cflags --libs glib-2.0`
 ```
 
 
-GLibs testcases are a good place to find examples
+With the GLibs testcases there at least *some* examples
 
 https://github.com/frida/glib/tree/master/glib/tests
