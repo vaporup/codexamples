@@ -10,3 +10,7 @@ Compiling example with base64.c:
 
 gcc base64.c -o base64 `pkg-config --cflags --libs glib-2.0`
 
+
+GLibs testcases are a good place to find examples
+
+https://github.com/frida/glib/tree/master/glib/tests
