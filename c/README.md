@@ -20,6 +20,6 @@ Compiling single example like base64.c:
 gcc base64.c -o base64 `pkg-config --cflags --libs glib-2.0`
 ```
 
-With the GLibs testcases there at least *some* examples but for a beginner not easy to digest
+With the GLibs testcases there at least *some* examples but not easy to digest for a beginner
 
 https://github.com/frida/glib/tree/master/glib/tests
