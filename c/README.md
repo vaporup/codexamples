@@ -20,6 +20,11 @@ Compile single example like base64.c manually:
 gcc base64.c -o base64 `pkg-config --cflags --libs glib-2.0`
 ```
 
+Housekeeping
+```
+make clean
+```
+
 With the GLibs testcases there at least *some* examples but not easy to digest for a beginner
 
 https://github.com/GNOME/glib/tree/master/glib/tests
