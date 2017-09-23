@@ -1,6 +1,6 @@
 
 // for g_print, gchar and g_base64_encode
-// -> https://developer.gnome.org/glib/stable/glib-Base64-Encoding.html#g-base64-encode
+// https://developer.gnome.org/glib/stable/glib-Base64-Encoding.html#g-base64-encode
 #include <glib.h>
 
 // g_base64_encode() returns a pointer,

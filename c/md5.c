@@ -1,6 +1,6 @@
 
 // for g_print, gchar and g_compute_checksum_for_string()
-// -> https://developer.gnome.org/glib/stable/glib-Data-Checksums.html
+// https://developer.gnome.org/glib/stable/glib-Data-Checksums.html
 #include <glib.h>
 
 // g_compute_checksum_for_string() returns a pointer,
