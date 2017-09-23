@@ -14,7 +14,7 @@ Compile them all
 make
 ```
 
-Compiling single example like base64.c:
+Compile single example like base64.c manually:
 
 ```
 gcc base64.c -o base64 `pkg-config --cflags --libs glib-2.0`
