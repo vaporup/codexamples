@@ -1,7 +1,7 @@
-#include <unistd.h>
+#include <unistd.h>   // for sleep()
 #include <glib.h>
  
-int main(int argc, char* argv[])
+int main(void)
 {
     gdouble elapsed;
 
