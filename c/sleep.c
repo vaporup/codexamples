@@ -1,11 +1,11 @@
-#include <stdio.h>
+#include <glib.h>
 #include <unistd.h>
  
-int main(int argc, char* argv[])
+int main(void)
 {
-    printf("Sleeping for 5 seconds...\n");
+    g_print("Sleeping for 5 seconds...\n");
     sleep(5);
-    printf("I'm awake!!!\n");
+    g_print("I'm awake!!!\n");
  
     return 0;
 }
