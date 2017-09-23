@@ -8,3 +8,5 @@ all: $(PROGS)
 	$(CC) $(CFLAGS) -o $@ $<
 clean:
 	rm -f $(PROGS)
+
+.PHONY: clean
